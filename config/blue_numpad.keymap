@@ -27,7 +27,7 @@
         };
     };
 };
-/* ---- Force correct diode direction for the matrix ---- */
+/* Correct diode direction for this build */
 &kscan0 {
-    diode-direction = "col2row";
+    diode-direction = "row2col";
 };
