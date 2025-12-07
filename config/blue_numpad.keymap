@@ -8,11 +8,21 @@
         default_layer {
             display-name = "Base";
             bindings = <
-                &kp A &kp B &kp C &kp D
-                &kp E &kp F &kp G &kp H
-                &kp I &kp J &kp K
-                &kp L &kp M &kp N &kp O
-                &kp P &kp Q
+&mo 1            &kp SLASH        &kp ASTERISK     &kp MINUS
+&kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS
+&kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6
+&kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp ENTER
+&kp KP_NUMBER_0                   &kp KP_DOT
+            >;
+        };
+
+        layer_1 {
+            bindings = <
+&trans            &kp EQUAL  &kp DOLLAR  &kp DELETE
+&kp K_CALCULATOR  &trans     &trans      &trans
+&trans            &trans     &trans
+&trans            &trans     &trans      &trans
+&trans                       &trans
             >;
         };
     };
